@@ -54,7 +54,7 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: #59b256;
+    color: #3FA4E3;
     display: flex;
     align-items: center; /*i dont think this does anything, 
     shouldnt children of display class have align-items ? */
@@ -63,13 +63,14 @@
 .i-img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; 
+    /* switch to cover when on phone/tablet */
     position: absolute;
 }
 
 .i-bg{
     clip-path: polygon(100% 0%, 100% 49%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    background-color: #59b256;
+    background-color: #3FA4E3;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -82,4 +83,23 @@
     height: 30px;
     position:  absolute;
     bottom: 20px;
+}
+
+.i-scroll{
+    width: 100px; 
+    /*w:h is 140:99 */
+    height: 71px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.i-scroll-path{
+    fill:none;
+    stroke: #3FA4E3;
+    stroke-width:10;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:4;
+    stroke-dasharray:none;
+    stroke-opacity:1
 }
