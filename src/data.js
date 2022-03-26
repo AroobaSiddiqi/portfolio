@@ -9,8 +9,8 @@ export const products = [
 
     {
         id: 2,
-        img: "https://i.ibb.co/w6zR3Gn/p2.png",
-        // href="https://ibb.co/QmKfzSW"
+        img: "https://i.ibb.co/CW2tJgY/p2.png",
+        // href="https://ibb.co/JCQdxVG"
         link: "https://www.parkerpen.com/pen-collections.html",
 
     },
@@ -49,8 +49,8 @@ export const products = [
 
     {
         id: 6,
-        img: "https://i.ibb.co/mC5m6Rc/p6.png",
-        // href="https://ibb.co/7JtH2S1"
+        img: "https://i.ibb.co/pdNTQvs/p6.png",
+        // href="https://ibb.co/nj4yBsV"
         link: "https://www.apple.com/",
 
     },
